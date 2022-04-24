@@ -1,0 +1,36 @@
+Available Accounts
+==================
+(0) 0xA8386B4c2860F381A2DBd8A79C113fbf6467d274 (100 ETH)
+(1) 0xB6f994A3CF0b48991e114F3880baCAb0bDA67a9f (100 ETH)
+(2) 0xc085c50675aED5d18e605cc662739b89E6eb5cB4 (100 ETH)
+(3) 0x1de2C8409b8434323d2334731705572FeD196741 (100 ETH)
+(4) 0xf76aa9d1c0c627E24Ce9c27A8b56a3754aFCa0b0 (100 ETH)
+(5) 0xB5f3534CCFE08eCd24780501fC656b24683aF53d (100 ETH)
+(6) 0xBB8324e9204165B47E2f73342fDC274B4eD4Df72 (100 ETH)
+(7) 0x6d6C3d2e8B271B5A61e31747054CD500f2744647 (100 ETH)
+(8) 0xe6d9238BF9fbdCE7E28347D2127A15c859e4B75f (100 ETH)
+(9) 0xA3a6683e34DB9CF48a8BB0d15891C970B6E0034E (100 ETH)
+
+Private Keys
+==================
+(0) 0x98024177ef96547e1cad260ad732581ca5d4bd63012c1126927a2b384924a73d
+(1) 0x52a9a4dfaabb80f7806739b5c99f82bf7f6e46d01734a21ff0477fc1fcac03c7
+(2) 0xf72e29f5c6f8343e1d09b75582c6a20624a751e8ca39ab999efb38cd5e269bbc
+(3) 0x86db887b6e5f6e6b6523bcdfc33d007aaa54b3fd00c1eebbfc8c88d634980f47
+(4) 0x4fe88d3ce96335a01c5bbbc654164c3ba59009c110908dd98644cc908c0471f7
+(5) 0xcd74aac233bffae1bf10a3cec793fba7c2956f6c4fc2610d0e34e6cb388fa55d
+(6) 0x39f934f127005ccc18796eba5d0940fdc2105ca10ffb107b5cd30e24fe13c1f4
+(7) 0x48b54a23f3ad835d7d24268decd94dd262d3051fbe18b538ab381c21a4c72db3
+(8) 0x29777b67a5422ac8b8d3f1396731a0b7abc4b9a6e0f7f33a82cdd2fc239d3d91
+(9) 0x56354e23a4a8e2aca22f30475211d76caf9e1171d8943daf09e0c1c8692906f8
+
+HD Wallet
+==================
+Mnemonic:      tank bleak walnut before exhibit among acid home mind only lunch rug
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+
+const myvoting = await Voting.deployed()
+
+    let options = {fromBlock: 0, toBlock: 'latest'};
+    const proposalsEvt = myvoting.getPastEvents('ProposalRegistered', options);
